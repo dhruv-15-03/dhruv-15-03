@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm currently working on DevOps .<br>Created some full stack projects like thoughts and currently working on the project of Event planner/Scheduler.<br><br>I’m looking to collaborate on various open source projects involving java as a backend language and some open source java development projects!!<br><br> I’m looking for help with the source available online and in various fields of development and operational cycle.<br><br>🌱 I’m currently learning DevOps and ML<br><br>
+I'm currently working on DevOps .<br>Created some full stack projects like thoughts and contributed in projects like "Smart Drug Monitoring System" and an open source project like "Guava" , currently working on "Secure Step".<br><br>I’m looking to collaborate on various open source projects involving java as a backend language and some open source java development projects!!<br><br> I’m looking for help with the source available online and in various fields of development and operational cycle.<br><br>🌱 I’m currently learning DevOps and ML<br><br>
 
 
 ## 🌐 Socials:
