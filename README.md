@@ -1,6 +1,15 @@
-# 💫 About Me:
-Hi! I'm Dhruv, a passionate backend developer and compiler enthusiast.<br>I'm currently building DhrLang, a Java-based compiler, and an AI-powered Legal Assistant that uses NLP and ML for case analysis.<br>I'm open to collaborating on DevOps, AI, and system-level backend projects, and currently diving deeper into GitHub Actions, LLMs, and runtime design.<br>Ask me about Spring Boot, compiler internals, or deploying full-stack apps.<br>Fun fact: I built a social media app blending Instagram and Twitter—fully Dockerized and cloud-hosted!
+# Hi, I'm Dhruv Rastogi 👋
 
+**Backend & platform engineer.** I build production Java/Spring Boot systems — and for fun, I write compilers.
+
+## 🚀 Featured Projects
+- **[DhrLang](https://github.com/dhruv-15-03/DhrLang)** — a statically-typed, object-oriented **JVM language built from scratch**: lexer → parser → typed IR → JVM bytecode, with generics, an LSP server, and an experimental EVM target. *(v3.0.0 · MIT · CI + mutation testing)*
+- **[boot-usage](https://github.com/dhruv-15-03/boot-usage)** — a Spring Boot starter **published to Maven Central** that adds an Actuator endpoint to detect used / unused starters at runtime and trim dependency bloat.
+- **[Orchestrator](https://github.com/dhruv-15-03/Orchestrator)** — an event-driven microservices orchestrator implementing the **Saga pattern with rollback** using reactive Spring Boot.
+
+💡 Interested in clean APIs, low-latency backends, distributed systems, and developer tooling.
+
+📫 **dhruvrastogi2004@gmail.com** · 🌍 Open to backend / platform engineering roles (remote or India).
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_.dhruv_.15) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/dhruv-rastogi-3b744032b) [![LeetCode](https://img.shields.io/badge/leetCode-%FFA500.svg?logo=leetcode&logoColor=white)](https://leetcode.com/u/dhruv_1503/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:dhruvrastogi2004@gmail.com) 
