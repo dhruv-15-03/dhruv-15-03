@@ -1,29 +1,60 @@
 # Dhruv Rastogi
 
-Backend engineer. Java and Spring at work, compilers and open source outside it.
+Backend engineer. Java and Spring Boot at work; compilers and open source (Java, Rust) outside it.
 
-## Open source
+## Merged contributions to other people's projects
 
-Three merged patches in [uutils/coreutils](https://github.com/uutils/coreutils), the Rust rewrite of GNU coreutils:
+| Project | PR | What it fixed |
+|---|---|---|
+| [spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) | [#50779](https://github.com/spring-projects/spring-boot/pull/50779) | The `java.util.logging` bridge handler was being removed even when the application had not installed it. Now it is only removed if it was installed. |
+| [github/spec-kit](https://github.com/github/spec-kit) | [#3413](https://github.com/github/spec-kit/pull/3413) | Added configurable Conventional Commit support to the git extension. |
+| [uutils/coreutils](https://github.com/uutils/coreutils) | [#13718](https://github.com/uutils/coreutils/pull/13718) | `join` was not applying the `-e` filler to empty output fields. |
+| [uutils/coreutils](https://github.com/uutils/coreutils) | [#13719](https://github.com/uutils/coreutils/pull/13719) | `test` compared integers wider than `i128` incorrectly. |
+| [uutils/coreutils](https://github.com/uutils/coreutils) | [#13731](https://github.com/uutils/coreutils/pull/13731) | `chmod` reported a umask-curtailed mode for operands that only looked like options. |
 
-- [`join`](https://github.com/uutils/coreutils/pull/13718) - the `-e` filler was not being applied to output fields that exist but are empty
-- [`test`](https://github.com/uutils/coreutils/pull/13719) - integer comparison was wrong for values wider than i128
-- [`chmod`](https://github.com/uutils/coreutils/pull/13731) - umask diagnostics were reported for operands that only looked like options, open as a bug since 2022
+uutils/coreutils is an independent Rust reimplementation of the GNU Coreutils
+command-line tools. It is not GNU Coreutils.
 
-Also [spring-boot#50779](https://github.com/spring-projects/spring-boot/pull/50779), where the JUL bridge handler was removed even when the application had never installed it, and [awesome-java#1173](https://github.com/akullpp/awesome-java/pull/1173).
+Currently open: [github/spec-kit#3748](https://github.com/github/spec-kit/pull/3748),
+which makes agent CLI executable resolution happen in one place so the preflight
+check and the actual dispatch cannot disagree.
 
 ## Projects
 
-**[DhrLang](https://github.com/dhruv-15-03/DhrLang)** - a statically typed JVM language I wrote from scratch. Lexer, parser, type checker with generics, a typed IR, and a JVM bytecode emitter. It runs three ways: straight off the AST, through an IR interpreter, or compiled to bytecode, and a parity suite diffs the other two against the AST interpreter. Ships an LSP server and a VS Code extension. v4.0.2, 38 releases, 1,491 tests, MIT.
+**[DhrLang](https://github.com/dhruv-15-03/DhrLang)** — a statically typed,
+object-oriented JVM language written from scratch: lexer, parser, type checker with
+generics, three execution backends (AST walker, IR, bytecode), an LSP server and a
+VS Code extension, plus an experimental EVM target. Java, MIT.
 
-**[boot-usage](https://github.com/dhruv-15-03/boot-usage)** - a Spring Boot starter on Maven Central. Adds an Actuator endpoint that reports which of your starters are actually used at runtime, so you can drop the ones that are not.
+**[boot-usage](https://github.com/dhruv-15-03/boot-usage)** — a Spring Boot starter
+with an Actuator endpoint that reports which starters are actually used, unused or
+indeterminate at runtime. Distributed via JitPack and GitHub Releases. Listed in
+[awesome-java](https://github.com/akullpp/awesome-java) ([#1173](https://github.com/akullpp/awesome-java/pull/1173)).
 
-**[Orchestrator](https://github.com/dhruv-15-03/Orchestrator)** - an event driven microservice orchestrator implementing the Saga pattern with rollback, on reactive Spring Boot.
+**AI CourtRoom** — a legal case-management app in two repos:
+[AI-CourtRoom](https://github.com/dhruv-15-03/AI-CourtRoom) (React frontend +
+Spring Boot backend, with Resilience4j circuit breakers around the AI dependency)
+and [AI-court-AI](https://github.com/dhruv-15-03/AI-court-AI) (the Python ML/LLM
+service for retrieval-augmented answers and case prediction).
+[Live demo](https://ai-court-room-iota.vercel.app).
+
+**[spec-kit-ears](https://github.com/dhruv-15-03/spec-kit-ears)** — an EARS (Easy
+Approach to Requirements Syntax) extension for GitHub's Spec Kit.
+
+**[Orchestrator](https://github.com/dhruv-15-03/Orchestrator)** — a microservices
+orchestrator demonstrating the Saga pattern with rollback, built on event-driven
+reactive Spring Boot.
+
+**[AlgoVisualizer](https://github.com/dhruv-15-03/AlgoVisualizer)** — edit real
+Python ML code in the browser and watch the algorithm train step by step on real
+datasets.
 
 ## Work
 
-Currently building ETL pipelines on Azure Fabric and Databricks, and running the CI/CD and Terraform behind 10+ Function Apps.
+Associate Software Engineer at MAQ Software (since Nov 2025): Java/Spring Boot
+features for an internal business application, and an internal RAG-based,
+multi-agent slide-deck application in C#/.NET and React.
 
-Java, Spring Boot, Python, SQL, Azure, Terraform, Docker, Kubernetes.
+Java, Spring Boot, Rust, Python, TypeScript/React, MySQL, Redis, Docker, GitHub Actions.
 
 dhruvrastogi2004@gmail.com. Open to backend and platform roles, remote or India.
